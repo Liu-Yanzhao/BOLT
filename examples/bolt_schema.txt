@@ -1,0 +1,17 @@
+{
+  "housing_insecurity": [
+    "Present",
+    "Negated",
+    "NA"
+  ],
+  "caregiver_presence": [
+    "Present",
+    "Negated",
+    "NA"
+  ],
+  "caregiver_stress": [
+    "Present",
+    "Negated",
+    "NA"
+  ]
+}
