@@ -1,4 +1,5 @@
 # BOLT: Browser-Only Labelling Tool
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24420609.svg)](https://doi.org/10.5281/zenodo.24420609)
 
 BOLT is a single-file browser application for expert review of annotations extracted from free text, such as classifications produced by a large language model (LLM). It shows each provisional annotation next to its source document and highlights the evidence the model cited. Reviewers can confirm, correct or reject each annotation and add annotations the model missed. The exported CSV keeps the original model output alongside every review decision, so you can trace each revision and analyse extraction errors.
 
