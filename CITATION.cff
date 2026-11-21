@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata in this file."
+type: software
+title: "BOLT: Browser-Only Labelling Tool"
+abstract: >-
+  BOLT (Browser-Only Labelling Tool) is a single-file web application for
+  expert review of provisional text annotations, such as variables extracted
+  from clinical notes by a large language model. Users define a schema of
+  variables and permissible labels, then load source documents and
+  annotations from CSV files with configurable column mapping. For each
+  document, BOLT displays the text alongside one card per annotation,
+  highlights the supporting evidence in the text and flags evidence that
+  cannot be located. Reviewers mark each annotation as correct, correct it
+  with a new classification or evidence span, reject it outright, or add
+  annotations the model missed. Decisions are exported to CSV with the
+  original and corrected values side by side, and a saved export can be
+  reloaded to resume a review. BOLT runs entirely in the browser from a local
+  HTML file, with no installation, server or network connection, so
+  sensitive text never leaves the reviewer's computer.
+authors:
+  - family-names: Liu
+    given-names: Yanzhao
+    affiliation: "Health Services Research Unit, Singapore General Hospital"
+    orcid: https://orcid.org/0009-0000-3009-5352
+  - family-names: Low
+    given-names: Nicole
+    affiliation: "Health Services Research Unit, Singapore General Hospital"
+  - family-names: Tan
+    given-names: Jen Hong
+    affiliation: "Data Science and AI Lab, Singapore General Hospital"
+    orcid: https://orcid.org/0000-0002-7785-2987
+  - family-names: Tan
+    given-names: Joshua Kuan
+    affiliation: "Health Services Research Unit, Singapore General Hospital"
+    orcid: https://orcid.org/0000-0002-4518-0477
+repository-code: "https://github.com/Liu-Yanzhao/BOLT"
+license: MIT
+keywords:
+  - clinical text annotation
+  - large language models
+  - information extraction
+  - human-in-the-loop verification
+  - electronic health record
+version: 1.0.0
+date-released: 2026-11-21
